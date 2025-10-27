@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teen Magazine Layout - CSS Grid Activity</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <header class="header">
+      <h1>🎮 TEEN ZONE 🎵</h1>
+      <p>Your daily dose of gaming, music, and fun!</p>
+      <img src="https://images.unsplash.com/photo-1605902711622-cfb43c4437b5?w=800&auto=format&fit=crop" alt="Teens playing video games">
+    </header>
+
+    <nav class="navbar">
+      <a href="#">Home</a>
+      <a href="#">Gaming</a>
+      <a href="#">Music</a>
+      <a href="#">Sports</a>
+      <a href="#">Tech</a>
+    </nav>
+
+    <aside class="sidebar">
+      <h2>Trending Now 🔥</h2>
+      <ul>
+        <li>New Game Release!</li>
+        <li>Top 10 Songs</li>
+        <li>Tech Reviews</li>
+        <li>Sports Updates</li>
+      </ul>
+      <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&auto=format&fit=crop" alt="Trending section image">
+    </aside>
+
+    <main class="main-content">
+      <h2>Featured Article</h2>
+      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=900&auto=format&fit=crop" alt="Teen lifestyle">
+      <p>Welcome to Teen Zone! This is where you'll find the latest news about gaming, music, technology, and everything cool. Stay tuned for daily updates!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </main>
+
+    <section class="article1">
+      <h3>🎮 Gaming News</h3>
+      <img src="https://images.unsplash.com/photo-1605902713019-062f04d46e1f?w=600&auto=format&fit=crop" alt="Gaming image">
+      <p>Check out the newest games and reviews!</p>
+    </section>
+
+    <section class="article2">
+      <h3>🎵 Music Beat</h3>
+      <img src="https://images.unsplash.com/photo-1485579149621-3123dd979885?w=600&auto=format&fit=crop" alt="Music image">
+      <p>Top charts and new releases this week!</p>
+    </section>
+
+    <section class="article3">
+      <h3>⚽ Sports Corner</h3>
+      <img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d?w=600&auto=format&fit=crop" alt="Sports image">
+      <p>Latest scores and player highlights!</p>
+    </section>
+
+    <div class="advertisement">
+      <h3>📱 New Phone Launch!</h3>
+      <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&auto=format&fit=crop" alt="Phone ad">
+      <p>Get 20% off with student discount</p>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; 2025 Teen Zone | Follow us on social media</p>
+    </footer>
+  </div>
+
+</body>
+</html>
+
+
