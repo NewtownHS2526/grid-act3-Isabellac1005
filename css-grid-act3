@@ -1,0 +1,131 @@
+/* General Page Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f0f0f5;
+  color: #333;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "navbar navbar navbar"
+    "sidebar main main"
+    "article1 article2 article3"
+    "advertisement advertisement advertisement"
+    "footer footer footer";
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+  padding: 20px;
+}
+
+header {
+  grid-area: header;
+  background-color: #6c5ce7;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.navbar {
+  grid-area: navbar;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #a29bfe;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: #dfe6e9;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.sidebar img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.main-content {
+  grid-area: main;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.main-content img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.article1, .article2, .article3 {
+  background-color: #ffeaa7;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.article1 img, .article2 img, .article3 img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 8px;
+}
+
+.advertisement {
+  grid-area: advertisement;
+  background-color: #fab1a0;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.advertisement img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 8px 0;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #2d3436;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 800px) {
+  .container {
+    grid-template-areas:
+      "header"
+      "navbar"
+      "main"
+      "sidebar"
+      "article1"
+      "article2"
+      "article3"
+      "advertisement"
+      "footer";
+    grid-template-columns: 1fr;
+  }
+}
